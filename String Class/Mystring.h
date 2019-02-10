@@ -11,7 +11,6 @@ using namespace std;
 class strings {
 
     public:
-    string dynamic(string a);
     int strlengh (string  a);    
     string uppercasing (string a);
     string lowercasing (string a);

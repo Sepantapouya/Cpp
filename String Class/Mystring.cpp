@@ -58,15 +58,6 @@ string strings::concatenating (string a,string b){
     return NEW;
 }
 //////////////////////////////////////////////////////
-string strings::dynamic(string a){
-    int lenght=strlengh(a);
-    string new_dynamic=new char [lenght];
-    for (int i=0;i<lenght;i++){
-        new_dynamic[i]=a[i];
-    }
-    return new_dynamic;
-}
-//////////////////////////////////////////////////////
 string strings::replacechar (string a , int b , char c){
     char* NEW;
     int lenght;
